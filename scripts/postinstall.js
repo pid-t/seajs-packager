@@ -5,7 +5,7 @@ try {
   spm.plugin.install({
     name: 'seajs-packager',
     bin: 'seajs-packager',
-    description: 'Build SeaJS Business Modules by Chaos\'s way.'
+    description: 'A spm2 plugin for building the seajs business modules'
   });
 } catch(e) {
   console.log('  you need install spm to register the program');
