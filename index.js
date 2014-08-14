@@ -31,10 +31,6 @@ exports = module.exports = function (options) {
         'spm-newline',
         'modify-config'
       ];
-
-      if (options.gzip === 'all' || options.gzip === 'current') {
-        taskList.push('compress'); // dist/*-md5.js -> dist/*-md5.js.gz
-      }
       grunt.registerInitTask('seajs-packager', taskList);
     } catch (e) {
       grunt.log.error(e);
@@ -51,7 +47,6 @@ function loadTasks(grunt) {
     'grunt-contrib-copy',
     'grunt-contrib-cssmin',
     'grunt-contrib-clean',
-    'grunt-contrib-compress',
     'grunt-md5'
   ].forEach(function (task) {
         var taskdir = path.join(__dirname, 'node_modules', task, 'tasks');

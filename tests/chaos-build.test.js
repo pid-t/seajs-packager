@@ -1,1 +1,0 @@
-var chaosBuild = require('..');

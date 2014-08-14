@@ -3,6 +3,7 @@
   "description": "Spm plugin for building seajs business modules.",
   "version": "0.0.1",
   "homepage": "https://github.com/pid-t/seajs-packager",
+  "author": "pid-t <pid.zeng@gmail.com> (https://github.com/pid-t)",
   "repository": {
     "type": "git",
     "url": "git@github.com:pid-t/seajs-packager.git"
