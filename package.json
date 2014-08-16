@@ -1,7 +1,7 @@
 {
   "name": "seajs-packager",
   "description": "Spm plugin for building seajs business modules.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "homepage": "https://github.com/pid-t/seajs-packager",
   "author": "pid-t <pid.zeng@gmail.com> (https://github.com/pid-t)",
   "repository": {
